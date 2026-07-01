@@ -114,6 +114,7 @@ const LoginPage = () => {
           fullWidth
           variant="outlined"
           color="primary"
+          onClick={() => navigate('/signup')}
           sx={{ py: 1.2, fontSize: '1rem' }}
         >
           회원가입
